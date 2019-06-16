@@ -1,9 +1,9 @@
 {
   "name": "feed2json",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Convert RSS/Atom feeds to JSONFeed.",
   "main": "index.js",
-  "repository": "chilts/feed2json",
+  "repository": "lovelldies/feed2json",
   "scripts": {
     "test": "set -e; for FILE in test/*.js; do node $FILE; done"
   },
@@ -16,6 +16,6 @@
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
-  "author": "Andrew Chilton <andychilton@gmail.com>",
+  "author": "Lovell D'souza <lovelldies@gmail.com>",
   "license": "ISC"
 }

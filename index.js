@@ -140,9 +140,9 @@ function fromStream(stream, url, opts, callback) {
 
     // external_url (optional, string) - ignore since we're adding a `url` anyway
 
-    // category (optional, string)
-    if ( post.category ) {
-      item.category = post.category
+    // categories (optional, array)
+    if ( post.categories ) {
+      item.categories = post.categories
     }
 
     // title (optional, string)
